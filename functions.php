@@ -1,8 +1,17 @@
 <?php
 
-function test()
+// function test()
+// {
+//     echo '<h1>hello world</h1>';
+// }
+
+// test();
+
+#function argument
+
+function calculate($number_1, $number_2)
 {
-    echo '<h1>hello world</h1>';
+    echo 'sum = ' . $number_1 + $number_2;
 }
 
-test();
+calculate(3, 4);
